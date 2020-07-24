@@ -1,0 +1,20 @@
+{
+  "name": "deploy-scripts",
+  "version": "1.0.0",
+  "description": "auto deploy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "deploy": "index.js"
+  },
+  "author": "qhx",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^5.0.0",
+    "chalk": "^4.1.0",
+    "node-ssh": "^10.0.2",
+    "ora": "^4.0.5"
+  }
+}
