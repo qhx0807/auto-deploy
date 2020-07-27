@@ -18,10 +18,10 @@ npm install fe-auto-deploy -g
         serveDir: '/www/wwwroot/test',
         buildScript: 'npm run build',
         sshConf: {
-        host: '192.168.1.207',
-        port: 22,
-        username: 'root',
-        password: 'password'
+            host: '192.168.1.207',
+            port: 22,
+            username: 'root',
+            password: 'password'
         }
     },
     dev: {
@@ -29,10 +29,10 @@ npm install fe-auto-deploy -g
         serveDir: '/www/wwwroot/test',
         buildScript: 'npm run build',
         sshConf: {
-        host: '192.168.1.108',
-        port: 22,
-        username: 'root',
-        password: 'password'
+            host: '192.168.1.108',
+            port: 22,
+            username: 'root',
+            password: 'password'
         }
     }
     }
