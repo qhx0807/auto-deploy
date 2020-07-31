@@ -12,29 +12,29 @@ npm install fe-auto-deploy -g
 
     ```js
     module.exports = {
-    projectName: 'test',
-    prod: {
-        localDir: '/dist',
-        serveDir: '/www/wwwroot/test',
-        buildScript: 'npm run build',
-        sshConf: {
-            host: '192.168.1.207',
-            port: 22,
-            username: 'root',
-            password: 'password'
+        projectName: 'test',
+        prod: {
+            localDir: '/dist',
+            serveDir: '/www/wwwroot/test',
+            buildScript: 'npm run build',
+            sshConf: {
+                host: '192.168.1.207',
+                port: 22,
+                username: 'root',
+                password: 'password'
+            }
+        },
+        dev: {
+            localDir: '/dist',
+            serveDir: '/www/wwwroot/test',
+            buildScript: 'npm run build',
+            sshConf: {
+                host: '192.168.1.108',
+                port: 22,
+                username: 'root',
+                password: 'password'
+            }
         }
-    },
-    dev: {
-        localDir: '/dist',
-        serveDir: '/www/wwwroot/test',
-        buildScript: 'npm run build',
-        sshConf: {
-            host: '192.168.1.108',
-            port: 22,
-            username: 'root',
-            password: 'password'
-        }
-    }
     }
     ```
 
