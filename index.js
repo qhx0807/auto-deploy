@@ -53,7 +53,6 @@ function startZip() {
       throw err;
     });
     const output = fs.createWriteStream(`${projectDir}/dist.zip`).on('close', err => {
-      // console.log(archive.pointer());
       if (err) {
         console.log('关闭archiver异常:' + err);
         reject(err);
